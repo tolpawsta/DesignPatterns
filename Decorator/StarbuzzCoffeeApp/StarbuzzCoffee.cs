@@ -25,6 +25,8 @@ namespace StarbuzzCoffeeApp
 
             // add Whip
             beverage = new Whip(beverage);
+
+            view.Show (beverage);
         }
     }
 }
