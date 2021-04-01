@@ -17,14 +17,14 @@ namespace StarbuzzCoffeeApp
 
             // add CondimentDecorators
             // add Mocha
-            beverage = new Mocha(beverage);
-            beverage = new Mocha(beverage);
+            beverage = new Mocha(beverage) { Cost = .60M };
+            beverage = new Mocha(beverage) { Cost = .60M };
 
             // add Soy
-            beverage = new Soy(beverage);
+            beverage = new Soy(beverage) { Cost = .40M };
 
             // add Whip
-            beverage = new Whip(beverage);
+            beverage = new Whip(beverage) { Cost = .45M };
 
             view.Show (beverage);
         }
