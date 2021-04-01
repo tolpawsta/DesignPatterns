@@ -2,7 +2,7 @@ namespace StarbuzzCoffeeLibrary.Interfaces
 {
     public interface IBeverage
     {
-        string Description { get; set; }
+        string Description { get; }
 
         decimal Cost { get; set; }
     }

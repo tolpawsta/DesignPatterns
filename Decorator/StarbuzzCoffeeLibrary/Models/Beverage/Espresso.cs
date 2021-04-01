@@ -4,7 +4,7 @@ namespace StarbuzzCoffeeLibrary.Models.Beverage
 {
     public class Espresso : IBeverage
     {
-        public string Description { get; set; } = "Espresso";
+        public string Description => "Espresso";
 
         public decimal Cost { get; set; } = 1.99M;
     }
