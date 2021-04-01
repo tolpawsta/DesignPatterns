@@ -2,7 +2,10 @@
   "folders": [
     {
       "path": "StarbuzzCoffeeLibrary"
-    }
+    },
+{
+      "path": "StarbuzzCoffeeApp"
+    },
   ],
   "settings": {}
 }
