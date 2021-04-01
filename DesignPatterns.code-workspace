@@ -1,7 +1,10 @@
 {
-  "folders": [    
+  "folders": [
     {
       "path": "Strategy"
+    },
+    {
+      "path": "Decorator"
     }
   ],
   "settings": {}
