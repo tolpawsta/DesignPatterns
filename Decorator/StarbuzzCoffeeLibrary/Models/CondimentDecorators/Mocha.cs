@@ -12,7 +12,7 @@ namespace StarbuzzCoffeeLibrary.Models.CondimentDecorators
             _beverage = beverage;
         }
 
-        public string Description => _beverage.Description + ", Mocha";
+        public string Description => _beverage.Description + $",\n Mocha - \t{_cost:C}";
 
         public decimal Cost
         {
