@@ -12,7 +12,8 @@ namespace StarbuzzCoffeeApp
         /// <param name="beverage">beverage instanse</param>
         public void Show(IBeverage beverage)
         {
-            WriteLine($"{beverage.Description} - ${beverage.Cost}");
+            WriteLine($"{beverage.Description} \n-----------");
+            WriteLine($"\tTotal - {beverage.Cost:C}");
         }
     }
 }
