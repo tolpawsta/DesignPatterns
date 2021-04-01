@@ -2,11 +2,10 @@
 
 namespace StarbuzzCoffeeApp
 {
-    class Program
+    class StarbuzzCoffee
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }
